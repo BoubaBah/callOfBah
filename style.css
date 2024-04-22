@@ -4,6 +4,7 @@
     font-family: poppins, sans-serif
 }
 body{
+    background-image: url(images2.jpg);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -23,14 +24,14 @@ body{
     height: 400px;
     width: 500px;
 
-    border: 1px solid #999;
+    border: 1px solid #e11b1b;
     cursor: crosshair;
     position: relative;
     padding: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #fff;
+    background-color: #f76d6d;
     box-shadow: 0 0 5px rgba(142, 63, 63, 0.1);
     border-radius: 6px;
     overflow: hidden;
@@ -51,6 +52,14 @@ button{
     border-radius: 6px;
     cursor: pointer;
 
+}
+img{
+    border-radius: 40%;
+}
+span{
+    color: #e11b1b;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 @keyframes animateTarget{
